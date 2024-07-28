@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding-top: 0;
+    font-family: arial,roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    background: url(background.png);
+    background-size: cover; /* Make the image cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background image fixed in place */
+    }
+
+
+.header{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(96, 92, 92);
+    height: 70px;
+    z-index: 12;
+    top: 0;
+}
+
+.left-section{
+    margin-left:50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+.right-section{
+    display: flex;
+    flex: 1;
+    max-width: 400px;
+    justify-content: space-between;
+    margin-right:50px ;
+}
+
+.right-section div{
+    color: white;
+    padding: 9px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.15s;
+}
+
+.right-section div:hover{
+    background: grey;
+}
+
+.text{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: 700;
+    color: white;
+
+}
+
+.switch{
+    margin-top:200px;
+    background-color: aqua;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
