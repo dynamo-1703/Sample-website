@@ -27,6 +27,8 @@ body{
     top: 0;
 }
 
+
+
 .left-section{
     margin-left:50px;
     font-size: 30px;
@@ -105,3 +107,21 @@ body{
     cursor: pointer;
 
 }
+
+#sample{
+    animation:  text-change 1s infinite;
+    font-size:4vw;
+}
+
+
+
+
+@keyframes text-change {
+    0% { font-family: Arial, sans-serif; }
+    20% { font-family: Georgia, serif; }
+    40% { font-family: 'Times New Roman', serif; }
+    60% { font-family: Verdana, sans-serif; }
+    80% { font-family: 'Courier New', monospace; }
+    100% { font-family: Arial, sans-serif; }
+}
+
